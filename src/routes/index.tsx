@@ -13,21 +13,6 @@ import { Timeline } from "@/components/portfolio/Timeline";
 import { Contact } from "@/components/portfolio/Contact";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Shivam Singh — AI Engineer • GenAI • Agentic AI" },
-      {
-        name: "description",
-        content:
-          "Cinematic portfolio of Shivam Singh — 3rd year engineering student building Generative AI, LLMs, agentic systems, and full-stack products.",
-      },
-      { property: "og:title", content: "Shivam Singh — AI Engineer Portfolio" },
-      {
-        property: "og:description",
-        content: "Generative AI · LLMs · Agentic AI · DSA · Full Stack",
-      },
-    ],
-  }),
   component: Index,
 });
 
